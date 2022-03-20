@@ -11,9 +11,15 @@
  
   
   
-  <test name = "Makemytrip" enabled="true" >
+  <test name = "Launch" enabled="true" >
   <classes>
   <class name="makemytrip.Makemytrip_launch_test"/>
+    </classes>
+  </test>
+  
+  <test name = "Book_Train" enabled="true" >
+  <classes>
+  <class name="makemytrip.Makemytrip_TrainBook_test"/>
     </classes>
   </test>
   
