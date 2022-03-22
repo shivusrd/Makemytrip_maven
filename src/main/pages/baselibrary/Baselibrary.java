@@ -82,7 +82,7 @@ public static  Logger logger = LogManager.getLogger(Baselibrary.class);
 	public void Teardown()
 	{   
 		logger.info("Closing Chrome Browser");
-		driver.quit();
+		//driver.quit();
 	}
 	
 	

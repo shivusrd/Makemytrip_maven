@@ -13,6 +13,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
@@ -59,6 +60,15 @@ public class Applicationutility extends Baselibrary
 	 
 	 Actions act = new Actions(driver);
 	 act.moveToElement(ele).perform();
+	 
+ }
+ 
+ public static void dropdown(WebElement ele)
+ {
+	 
+	 
+	 Select sel = new Select(ele);
+	 sel.selectByVisibleText("");
 	 
  }
  

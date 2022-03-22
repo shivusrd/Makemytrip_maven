@@ -13,7 +13,7 @@
 
 	 <test name = "Single_Test" enabled="true" >
   <classes>
-  <class name="testingbaba.Testingbaba_webtables_test"/>
+  <class name="makemytrip.Makemytrip_TrainBook_test"/>
     </classes>
   </test>
   

@@ -4,16 +4,19 @@ import static org.testng.Assert.assertEquals;
 
 import java.util.List;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
+import applicationutility.Applicationutility;
 import baselibrary.Baselibrary;
 
 public class Makemytrip_TrainBook_page extends Baselibrary
 
 {
-
+	
 	public Makemytrip_TrainBook_page()
 
 	{
@@ -53,7 +56,14 @@ public class Makemytrip_TrainBook_page extends Baselibrary
 
 	@FindBy(xpath = "//*[@class=\"train-name\"]")
 	private List<WebElement> trains;
+	
+	@FindBy(xpath = "//span[normalize-space()='From']")
+	private WebElement from;
+	
+	@FindBy(xpath = "//input[@placeholder='From']")
+	private WebElement from2;
 
+	
 	public void booktrain_ticket() throws InterruptedException
 
 	{
@@ -72,6 +82,12 @@ public class Makemytrip_TrainBook_page extends Baselibrary
 //			driver.navigate().refresh();
 			train_btn.click();
 			Thread.sleep(2000);
+			from.click();
+			from.sendKeys("bareilly");
+			from2.sendKeys("bareilly",Keys.ARROW_DOWN);
+			from.sendKeys(Keys.ENTER);
+			
+			
 			search_btn.click();
 			Thread.sleep(2000);
 			assertEquals(depaft6_btn.isDisplayed(),true);
