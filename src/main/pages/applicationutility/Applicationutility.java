@@ -17,6 +17,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
+
 import baselibrary.Baselibrary;
 
 public class Applicationutility extends Baselibrary
@@ -81,6 +82,12 @@ public class Applicationutility extends Baselibrary
 	 driver.findElement(By.linkText(linktext)).click();
  }
  
+ 
+ public static void selectbyvisibletext(WebElement ele, String value) {
+	 
+	 Select dropdown=new Select(ele);
+	 dropdown.selectByVisibleText(value);
+ }
  public static void getscroll(WebElement ele)
 	{
 		try 
