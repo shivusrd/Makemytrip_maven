@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -34,26 +35,50 @@ public class Makemytrip_Bookhotel extends Baselibrary
 	
 	@FindBy(xpath = "//div[@class='DayPicker-Day DayPicker-Day--start DayPicker-Day--selected DayPicker-Day--disabled']")
 	private WebElement checkoutdate;
+	@FindBy(xpath = "//span[normalize-space()='City / Hotel / Area / Building']")
+	private WebElement from;
+	
+	@FindBy(xpath = "//div[@aria-label='Thu Mar 24 2022']")
+	private WebElement checkin;
+	
+	@FindBy(xpath = "//div[@aria-label='Fri Mar 25 2022']")
+	private WebElement checkout;
 	
 	
 	
 	
-	public void clickonhotel() {
+	
+	
+	
+//	public void clickonhotel() {
+//		
+//		closebtn.click();
+//		login3.click();
+//		hotel.click();
+//		searchbtn.click();
+//	}
+	
+	
+	public void clickonplace() throws InterruptedException {
 		
 		closebtn.click();
 		login3.click();
 		hotel.click();
+		from.click();
+		
+		chooseplace.click();
+		chooseplace.sendKeys("chennai");
+		Thread.sleep(2000);
+	    
+		chooseplace.sendKeys(Keys.ARROW_DOWN);
+		chooseplace.sendKeys(Keys.ENTER);
+		checkin.click();
+		checkout.click();
 		searchbtn.click();
 	}
 	
-	
-	/*public void clickonplace() {
-		chooseplace.click();
-		Applicationutility.selectbyvisibletext(hotel, "Goa");	
-	}
-	
-	public void clickondate() {
-		choosedate.click();
-	}*/
+//	public void clickondate() {
+//		choosedate.click();
+//	}
 	
 }

@@ -24,9 +24,9 @@ public class Makemytrip_Bookhotel_test extends Baselibrary{
 
 		
 		@Test(priority = 0)
-		public void clickonhotel()
+		public void clickonhotel() throws InterruptedException
 		{
-			ob.clickonhotel();
+			ob.clickonplace();
 			
 		}
 		
