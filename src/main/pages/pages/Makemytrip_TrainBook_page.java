@@ -82,10 +82,10 @@ public class Makemytrip_TrainBook_page extends Baselibrary
 //			driver.navigate().refresh();
 			train_btn.click();
 			Thread.sleep(2000);
-			from.click();
-			from.sendKeys("bareilly");
-			from2.sendKeys("bareilly",Keys.ARROW_DOWN);
-			from.sendKeys(Keys.ENTER);
+//			from.click();
+//			from2.sendKeys("bareilly");
+//			from2.sendKeys("bareilly",Keys.ARROW_DOWN);
+//			from2.sendKeys(Keys.ENTER);
 			
 			
 			search_btn.click();
@@ -93,7 +93,7 @@ public class Makemytrip_TrainBook_page extends Baselibrary
 			assertEquals(depaft6_btn.isDisplayed(),true);
 			depaft6_btn.click();
 
-			for (int k = 0; k <= 21; k++) {
+			for (int k = 0; k <= 20; k++) {
 				String datafill = trains.get(k).getText();
 
 				System.out.println(datafill);
@@ -120,7 +120,7 @@ public class Makemytrip_TrainBook_page extends Baselibrary
 			Thread.sleep(2000);
 			depaft6_btn.click();
 
-			for (int k = 0; k <= 21; k++) {
+			for (int k = 0; k <= 20; k++) {
 				String datafill = trains.get(k).getText();
 
 				System.out.println(datafill);
