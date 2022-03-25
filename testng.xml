@@ -8,10 +8,7 @@
        <listener class-name="extentReports.Extent_report"/>       
  </listeners>
 
- 
-  
-  
-  <test name = "Launch" enabled="true" >
+ <test name = "Launch" enabled="true" >
   <classes>
   <class name="makemytrip.Makemytrip_launch_test"/>
     </classes>

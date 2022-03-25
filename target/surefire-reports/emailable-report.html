@@ -9,11 +9,26 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Testingbaba</th></tr>
-<tr><td><a href="#t0">Makemytrip</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">21,223</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Launch</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">41,184</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Book_Train</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">19,705</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">60,889</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Testingbaba</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Makemytrip &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">makemytrip.Makemytrip_launch_test</td><td><a href="#m0">MakemyTripSendINValidNumber_Test02</a></td><td rowspan="1">1647706220619</td><td rowspan="1">9356</td></tr><tr class="passedeven"><td><a href="#m1">MakemyTripSendValidNumber_Test01</a></td><td rowspan="1">1647706216042</td><td rowspan="1">4571</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Testingbaba</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Launch &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">makemytrip.Makemytrip_launch_test</td><td><a href="#m0">SendINValidNumber_Test02</a></td><td rowspan="1">1648183737069</td><td rowspan="1">10240</td></tr><tr class="passedeven"><td><a href="#m1">SendValidNumber_Test01</a></td><td rowspan="1">1648183732124</td><td rowspan="1">4937</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Book_Train &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">makemytrip.Makemytrip_TrainBook_test</td><td><a href="#m2">BookTrainTicket_Test01</a></td><td rowspan="1">1648183757257</td><td rowspan="1">10091</td></tr></tbody>
 </table>
-<h2>Makemytrip</h2><h3 id="m0">makemytrip.Makemytrip_launch_test#MakemyTripSendINValidNumber_Test02</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Testcase MakemyTripSendINValidNumber_Test02 started successfully<br/>Testcase MakemyTripSendINValidNumber_Test02 passed successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">makemytrip.Makemytrip_launch_test#MakemyTripSendValidNumber_Test01</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Testcase MakemyTripSendValidNumber_Test01 started successfully<br/>Testcase MakemyTripSendValidNumber_Test01 passed successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Launch</h2><h3 id="m0">makemytrip.Makemytrip_launch_test#SendINValidNumber_Test02</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Testcase SendINValidNumber_Test02 started successfully<br/>Testcase SendINValidNumber_Test02 passed successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">makemytrip.Makemytrip_launch_test#SendValidNumber_Test01</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Testcase SendValidNumber_Test01 started successfully<br/>Testcase SendValidNumber_Test01 passed successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Book_Train</h2><h3 id="m2">makemytrip.Makemytrip_TrainBook_test#BookTrainTicket_Test01</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Testcase BookTrainTicket_Test01 started successfully<br/>Testcase BookTrainTicket_Test01 failed</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IndexOutOfBoundsException: Index 21 out of bounds for length 21
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
+	at com.sun.proxy.$Proxy30.get(Unknown Source)
+	at pages.Makemytrip_TrainBook_page.booktrain_ticket(Makemytrip_TrainBook_page.java:81)
+	at makemytrip.Makemytrip_TrainBook_test.BookTrainTicket_Test01(Makemytrip_TrainBook_test.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
