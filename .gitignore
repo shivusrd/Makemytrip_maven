@@ -4,3 +4,4 @@
 *.xml
 *.png
 test-output/collapseall.gif
+/target/

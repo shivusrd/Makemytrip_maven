@@ -29,16 +29,16 @@
       <![CDATA[Testcase BookTrainTicket_Test01 failed]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-03-25T10:18:27 IST" name="Testingbaba" finished-at="2022-03-25T10:19:28 IST" duration-ms="60923">
+  <suite started-at="2022-04-05T11:03:39 IST" name="Testingbaba" finished-at="2022-04-05T11:04:14 IST" duration-ms="34648">
     <groups>
     </groups>
-    <test started-at="2022-03-25T10:18:27 IST" name="Launch" finished-at="2022-03-25T10:19:09 IST" duration-ms="41184">
+    <test started-at="2022-04-05T11:03:39 IST" name="Launch" finished-at="2022-04-05T11:03:59 IST" duration-ms="19323">
       <class name="makemytrip.Makemytrip_launch_test">
-        <test-method is-config="true" signature="launchFB()[pri:0, instance:makemytrip.Makemytrip_launch_test@56c9bbd8]" started-at="2022-03-25T10:18:27 IST" name="launchFB" finished-at="2022-03-25T10:18:52 IST" duration-ms="24197" status="PASS">
+        <test-method is-config="true" signature="launchFB()[pri:0, instance:makemytrip.Makemytrip_launch_test@62dae540]" started-at="2022-04-05T11:03:39 IST" name="launchFB" finished-at="2022-04-05T11:03:45 IST" duration-ms="5842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchFB -->
-        <test-method signature="SendValidNumber_Test01()[pri:0, instance:makemytrip.Makemytrip_launch_test@56c9bbd8]" started-at="2022-03-25T10:18:52 IST" name="SendValidNumber_Test01" finished-at="2022-03-25T10:18:57 IST" duration-ms="4937" status="PASS">
+        <test-method signature="SendValidNumber_Test01()[pri:0, instance:makemytrip.Makemytrip_launch_test@62dae540]" started-at="2022-04-05T11:03:45 IST" name="SendValidNumber_Test01" finished-at="2022-04-05T11:03:50 IST" duration-ms="4602" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Testcase SendValidNumber_Test01 started successfully]]>
@@ -48,18 +48,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- SendValidNumber_Test01 -->
-        <test-method is-config="true" signature="analysis(org.testng.ITestResult)[pri:0, instance:makemytrip.Makemytrip_launch_test@56c9bbd8]" started-at="2022-03-25T10:18:57 IST" name="analysis" finished-at="2022-03-25T10:18:57 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="analysis(org.testng.ITestResult)[pri:0, instance:makemytrip.Makemytrip_launch_test@62dae540]" started-at="2022-04-05T11:03:50 IST" name="analysis" finished-at="2022-04-05T11:03:50 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SendValidNumber_Test01 status=SUCCESS method=Makemytrip_launch_test.SendValidNumber_Test01()[pri:0, instance:makemytrip.Makemytrip_launch_test@56c9bbd8] output=Testcase SendValidNumber_Test01 started successfully]]]>
+                <![CDATA[[TestResult name=SendValidNumber_Test01 status=SUCCESS method=Makemytrip_launch_test.SendValidNumber_Test01()[pri:0, instance:makemytrip.Makemytrip_launch_test@62dae540] output=Testcase SendValidNumber_Test01 started successfully]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- analysis -->
-        <test-method signature="SendINValidNumber_Test02()[pri:1, instance:makemytrip.Makemytrip_launch_test@56c9bbd8]" started-at="2022-03-25T10:18:57 IST" name="SendINValidNumber_Test02" finished-at="2022-03-25T10:19:07 IST" duration-ms="10240" status="PASS">
+        <test-method signature="SendINValidNumber_Test02()[pri:1, instance:makemytrip.Makemytrip_launch_test@62dae540]" started-at="2022-04-05T11:03:50 IST" name="SendINValidNumber_Test02" finished-at="2022-04-05T11:03:59 IST" duration-ms="8843" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Testcase SendINValidNumber_Test02 started successfully]]>
@@ -69,47 +69,71 @@
             </line>
           </reporter-output>
         </test-method> <!-- SendINValidNumber_Test02 -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:makemytrip.Makemytrip_launch_test@56c9bbd8]" started-at="2022-03-25T10:19:07 IST" name="Teardown" finished-at="2022-03-25T10:19:09 IST" duration-ms="1781" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Teardown -->
-        <test-method is-config="true" signature="analysis(org.testng.ITestResult)[pri:0, instance:makemytrip.Makemytrip_launch_test@56c9bbd8]" started-at="2022-03-25T10:19:07 IST" name="analysis" finished-at="2022-03-25T10:19:07 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="analysis(org.testng.ITestResult)[pri:0, instance:makemytrip.Makemytrip_launch_test@62dae540]" started-at="2022-04-05T11:03:59 IST" name="analysis" finished-at="2022-04-05T11:03:59 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SendINValidNumber_Test02 status=SUCCESS method=Makemytrip_launch_test.SendINValidNumber_Test02()[pri:1, instance:makemytrip.Makemytrip_launch_test@56c9bbd8] output=Testcase SendINValidNumber_Test02 started successfully]]]>
+                <![CDATA[[TestResult name=SendINValidNumber_Test02 status=SUCCESS method=Makemytrip_launch_test.SendINValidNumber_Test02()[pri:1, instance:makemytrip.Makemytrip_launch_test@62dae540] output=Testcase SendINValidNumber_Test02 started successfully]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- analysis -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:makemytrip.Makemytrip_launch_test@62dae540]" started-at="2022-04-05T11:03:59 IST" name="Teardown" finished-at="2022-04-05T11:03:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
       </class> <!-- makemytrip.Makemytrip_launch_test -->
     </test> <!-- Launch -->
-    <test started-at="2022-03-25T10:19:09 IST" name="Book_Train" finished-at="2022-03-25T10:19:28 IST" duration-ms="19705">
+    <test started-at="2022-04-05T11:03:59 IST" name="Book_Train" finished-at="2022-04-05T11:04:14 IST" duration-ms="15288">
       <class name="makemytrip.Makemytrip_TrainBook_test">
-        <test-method is-config="true" signature="launch_makemytrip()[pri:0, instance:makemytrip.Makemytrip_TrainBook_test@38be305c]" started-at="2022-03-25T10:19:09 IST" name="launch_makemytrip" finished-at="2022-03-25T10:19:17 IST" duration-ms="8133" status="PASS">
+        <test-method is-config="true" signature="launch_makemytrip()[pri:0, instance:makemytrip.Makemytrip_TrainBook_test@29e6eb25]" started-at="2022-04-05T11:03:59 IST" name="launch_makemytrip" finished-at="2022-04-05T11:04:04 IST" duration-ms="4867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_makemytrip -->
-        <test-method signature="BookTrainTicket_Test01()[pri:0, instance:makemytrip.Makemytrip_TrainBook_test@38be305c]" started-at="2022-03-25T10:19:17 IST" name="BookTrainTicket_Test01" finished-at="2022-03-25T10:19:27 IST" duration-ms="10091" status="FAIL">
-          <exception class="java.lang.IndexOutOfBoundsException">
+        <test-method signature="BookTrainTicket_Test01()[pri:0, instance:makemytrip.Makemytrip_TrainBook_test@29e6eb25]" started-at="2022-04-05T11:04:04 IST" name="BookTrainTicket_Test01" finished-at="2022-04-05T11:04:14 IST" duration-ms="10233" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Index 21 out of bounds for length 21]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='chNavIcon appendBottom2 chSprite chTrains']"}
+  (Session info: chrome=100.0.4896.60)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-493EAAE', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e2eaf9572d7fbb8094eabd50915dfbaf, findElement {using=xpath, value=//span[@class='chNavIcon appendBottom2 chSprite chTrains']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:56549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56549/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2eaf9572d7fbb8094eabd50915dfbaf]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IndexOutOfBoundsException: Index 21 out of bounds for length 21
-at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
-at java.base/java.util.Objects.checkIndex(Objects.java:372)
-at java.base/java.util.ArrayList.get(ArrayList.java:459)
-at java.base/jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
-at com.sun.proxy.$Proxy30.get(Unknown Source)
-at pages.Makemytrip_TrainBook_page.booktrain_ticket(Makemytrip_TrainBook_page.java:81)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='chNavIcon appendBottom2 chSprite chTrains']"}
+  (Session info: chrome=100.0.4896.60)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-493EAAE', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e2eaf9572d7fbb8094eabd50915dfbaf, findElement {using=xpath, value=//span[@class='chNavIcon appendBottom2 chSprite chTrains']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:56549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56549/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2eaf9572d7fbb8094eabd50915dfbaf
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy29.click(Unknown Source)
+at pages.Makemytrip_TrainBook_page.booktrain_ticket(Makemytrip_TrainBook_page.java:83)
 at makemytrip.Makemytrip_TrainBook_test.BookTrainTicket_Test01(Makemytrip_TrainBook_test.java:33)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -144,7 +168,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
               <![CDATA[Testcase BookTrainTicket_Test01 started successfully]]>
@@ -154,18 +178,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
             </line>
           </reporter-output>
         </test-method> <!-- BookTrainTicket_Test01 -->
-        <test-method is-config="true" signature="analysis(org.testng.ITestResult)[pri:0, instance:makemytrip.Makemytrip_TrainBook_test@38be305c]" started-at="2022-03-25T10:19:27 IST" name="analysis" finished-at="2022-03-25T10:19:27 IST" duration-ms="152" status="PASS">
+        <test-method is-config="true" signature="analysis(org.testng.ITestResult)[pri:0, instance:makemytrip.Makemytrip_TrainBook_test@29e6eb25]" started-at="2022-04-05T11:04:14 IST" name="analysis" finished-at="2022-04-05T11:04:14 IST" duration-ms="85" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=BookTrainTicket_Test01 status=FAILURE method=Makemytrip_TrainBook_test.BookTrainTicket_Test01()[pri:0, instance:makemytrip.Makemytrip_TrainBook_test@38be305c] output=Testcase BookTrainTicket_Test01 started successfully]]]>
+                <![CDATA[[TestResult name=BookTrainTicket_Test01 status=FAILURE method=Makemytrip_TrainBook_test.BookTrainTicket_Test01()[pri:0, instance:makemytrip.Makemytrip_TrainBook_test@29e6eb25] output=Testcase BookTrainTicket_Test01 started successfully]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- analysis -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:makemytrip.Makemytrip_TrainBook_test@38be305c]" started-at="2022-03-25T10:19:27 IST" name="Teardown" finished-at="2022-03-25T10:19:28 IST" duration-ms="1185" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:makemytrip.Makemytrip_TrainBook_test@29e6eb25]" started-at="2022-04-05T11:04:14 IST" name="Teardown" finished-at="2022-04-05T11:04:14 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
