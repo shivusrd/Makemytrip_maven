@@ -17,16 +17,16 @@
       <![CDATA[Testcase SendINValidNumber_Test02 passed successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-04-07T11:46:16 IST" name="Testingbaba" finished-at="2022-04-07T11:51:39 IST" duration-ms="322723">
+  <suite started-at="2022-04-08T18:29:55 IST" name="Testingbaba" finished-at="2022-04-08T18:30:28 IST" duration-ms="32445">
     <groups>
     </groups>
-    <test started-at="2022-04-07T11:46:16 IST" name="Launch" finished-at="2022-04-07T11:51:39 IST" duration-ms="322723">
+    <test started-at="2022-04-08T18:29:55 IST" name="Launch" finished-at="2022-04-08T18:30:28 IST" duration-ms="32445">
       <class name="makemytrip.Makemytrip_launch_test">
-        <test-method is-config="true" signature="launchFB()[pri:0, instance:makemytrip.Makemytrip_launch_test@62dae540]" started-at="2022-04-07T11:46:16 IST" name="launchFB" finished-at="2022-04-07T11:46:21 IST" duration-ms="5243" status="PASS">
+        <test-method is-config="true" signature="launchFB()[pri:0, instance:makemytrip.Makemytrip_launch_test@5827af16]" started-at="2022-04-08T18:29:55 IST" name="launchFB" finished-at="2022-04-08T18:30:10 IST" duration-ms="14277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchFB -->
-        <test-method signature="SendValidNumber_Test01()[pri:0, instance:makemytrip.Makemytrip_launch_test@62dae540]" started-at="2022-04-07T11:46:21 IST" name="SendValidNumber_Test01" finished-at="2022-04-07T11:46:26 IST" duration-ms="4613" status="PASS">
+        <test-method signature="SendValidNumber_Test01()[pri:0, instance:makemytrip.Makemytrip_launch_test@5827af16]" started-at="2022-04-08T18:30:10 IST" name="SendValidNumber_Test01" finished-at="2022-04-08T18:30:16 IST" duration-ms="6049" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Testcase SendValidNumber_Test01 started successfully]]>
@@ -36,18 +36,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SendValidNumber_Test01 -->
-        <test-method is-config="true" signature="analysis(org.testng.ITestResult)[pri:0, instance:makemytrip.Makemytrip_launch_test@62dae540]" started-at="2022-04-07T11:46:26 IST" name="analysis" finished-at="2022-04-07T11:46:26 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=SendValidNumber_Test01 status=SUCCESS method=Makemytrip_launch_test.SendValidNumber_Test01()[pri:0, instance:makemytrip.Makemytrip_launch_test@62dae540] output=Testcase SendValidNumber_Test01 started successfully]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- analysis -->
-        <test-method signature="SendINValidNumber_Test02()[pri:1, instance:makemytrip.Makemytrip_launch_test@62dae540]" started-at="2022-04-07T11:46:26 IST" name="SendINValidNumber_Test02" finished-at="2022-04-07T11:51:39 IST" duration-ms="312847" status="PASS">
+        <test-method signature="SendINValidNumber_Test02()[pri:1, instance:makemytrip.Makemytrip_launch_test@5827af16]" started-at="2022-04-08T18:30:16 IST" name="SendINValidNumber_Test02" finished-at="2022-04-08T18:30:28 IST" duration-ms="12073" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Testcase SendINValidNumber_Test02 started successfully]]>
@@ -57,18 +46,29 @@
             </line>
           </reporter-output>
         </test-method> <!-- SendINValidNumber_Test02 -->
-        <test-method is-config="true" signature="analysis(org.testng.ITestResult)[pri:0, instance:makemytrip.Makemytrip_launch_test@62dae540]" started-at="2022-04-07T11:51:39 IST" name="analysis" finished-at="2022-04-07T11:51:39 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="analysis(org.testng.ITestResult)[pri:0, instance:makemytrip.Makemytrip_launch_test@5827af16]" started-at="2022-04-08T18:30:16 IST" name="analysis" finished-at="2022-04-08T18:30:16 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SendINValidNumber_Test02 status=SUCCESS method=Makemytrip_launch_test.SendINValidNumber_Test02()[pri:1, instance:makemytrip.Makemytrip_launch_test@62dae540] output=Testcase SendINValidNumber_Test02 started successfully]]]>
+                <![CDATA[[TestResult name=SendValidNumber_Test01 status=SUCCESS method=Makemytrip_launch_test.SendValidNumber_Test01()[pri:0, instance:makemytrip.Makemytrip_launch_test@5827af16] output=Testcase SendValidNumber_Test01 started successfully]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- analysis -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:makemytrip.Makemytrip_launch_test@62dae540]" started-at="2022-04-07T11:51:39 IST" name="Teardown" finished-at="2022-04-07T11:51:39 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="analysis(org.testng.ITestResult)[pri:0, instance:makemytrip.Makemytrip_launch_test@5827af16]" started-at="2022-04-08T18:30:28 IST" name="analysis" finished-at="2022-04-08T18:30:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SendINValidNumber_Test02 status=SUCCESS method=Makemytrip_launch_test.SendINValidNumber_Test02()[pri:1, instance:makemytrip.Makemytrip_launch_test@5827af16] output=Testcase SendINValidNumber_Test02 started successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- analysis -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:makemytrip.Makemytrip_launch_test@5827af16]" started-at="2022-04-08T18:30:28 IST" name="Teardown" finished-at="2022-04-08T18:30:28 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
