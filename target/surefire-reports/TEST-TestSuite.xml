@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="30.151" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.389" tests="6" errors="0" skipped="5" failures="1">
   <properties>
     <property name="JOB_NAME" value="Makemytrip_maven"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Makemytrip_maven/52/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Makemytrip_maven/54/display/redirect?page=tests"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="JENKINS_HOME" value="C:\ProgramData\Jenkins\.jenkins"/>
@@ -27,8 +27,8 @@
     <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="Makemytrip_maven"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Makemytrip_maven/52/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#52"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Makemytrip_maven/54/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#54"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
     <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="608e2dd48e6d61319fb32726bfa976a82fc410d6"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
@@ -39,7 +39,7 @@
     <property name="USERNAME" value="DESKTOP-493EAAE$"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
-    <property name="BUILD_ID" value="52"/>
+    <property name="BUILD_ID" value="54"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="maven.conf" value="C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Users_dubey_Downloads_apache-maven-3.8.4-src_apache-maven-3.8.4_apache-maven\conf"/>
@@ -52,11 +52,11 @@
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.12"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Makemytrip_maven/52/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Makemytrip_maven/54/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\WINDOWS\TEMP"/>
     <property name="path.separator" value=";"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Makemytrip_maven/52/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Makemytrip_maven/54/display/redirect?page=artifacts"/>
     <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
     <property name="user.variant" value=""/>
     <property name="GIT_PREVIOUS_COMMIT" value="608e2dd48e6d61319fb32726bfa976a82fc410d6"/>
@@ -74,7 +74,7 @@
     <property name="POM_GROUPID" value="Makemytrip_maven"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-Makemytrip_maven-52"/>
+    <property name="BUILD_TAG" value="jenkins-Makemytrip_maven-54"/>
     <property name="JENKINS_SERVER_COOKIE" value="eb8388b5b3d2ed27"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -91,7 +91,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Users_dubey_Downloads_apache-maven-3.8.4-src_apache-maven-3.8.4_apache-maven"/>
     <property name="java.class.path" value="C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Users_dubey_Downloads_apache-maven-3.8.4-src_apache-maven-3.8.4_apache-maven\boot\plexus-classworlds-2.6.0.jar;C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Users_dubey_Downloads_apache-maven-3.8.4-src_apache-maven-3.8.4_apache-maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Users_dubey_Downloads_apache-maven-3.8.4-src_apache-maven-3.8.4_apache-maven C:\ProgramData\Jenkins\war\WEB-INF\lib\remoting-4.13.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 51439"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Users_dubey_Downloads_apache-maven-3.8.4-src_apache-maven-3.8.4_apache-maven C:\ProgramData\Jenkins\war\WEB-INF\lib\remoting-4.13.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 51866"/>
     <property name="Path" value="C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.12\bin;C:\Program Files\apache-maven-3.8.4\bin;C:\Program Files\dotnet\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
     <property name="jdk.debug" value="release"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
@@ -109,7 +109,7 @@
     <property name="PATH+MAVEN" value="C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Users_dubey_Downloads_apache-maven-3.8.4-src_apache-maven-3.8.4_apache-maven/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Makemytrip_maven/52/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Makemytrip_maven/54/"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -121,7 +121,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="BASE" value="C:\Program Files\Jenkins"/>
-    <property name="BUILD_NUMBER" value="52"/>
+    <property name="BUILD_NUMBER" value="54"/>
     <property name="PROCESSOR_REVISION" value="8c01"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="GIT_BRANCH" value="origin/master"/>
@@ -143,6 +143,32 @@
     <property name="java.vendor.version" value="18.9"/>
     <property name="GIT_URL" value="https://github.com/shivusrd/Makemytrip_maven"/>
   </properties>
-  <testcase name="SendValidNumber_Test01" classname="makemytrip.Makemytrip_launch_test" time="5.056"/>
-  <testcase name="SendINValidNumber_Test02" classname="makemytrip.Makemytrip_launch_test" time="11.676"/>
+  <testcase name="launchFB" classname="makemytrip.Makemytrip_launch_test" time="1.405">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at makemytrip.Makemytrip_launch_test.launchFB(Makemytrip_launch_test.java:39)
+</failure>
+    <system-out><![CDATA[About to begin executing Class Single_Test
+]]></system-out>
+  </testcase>
+  <testcase name="SendValidNumber_Test01" classname="makemytrip.Makemytrip_launch_test" time="0">
+    <skipped/>
+    <system-out><![CDATA[Testcase SendValidNumber_Test01 started successfully
+Testcase SendValidNumber_Test01 got skipped
+]]></system-out>
+  </testcase>
+  <testcase name="analysis" classname="makemytrip.Makemytrip_launch_test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="analysis" classname="makemytrip.Makemytrip_launch_test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="SendINValidNumber_Test02" classname="makemytrip.Makemytrip_launch_test" time="0">
+    <skipped/>
+    <system-out><![CDATA[Testcase SendINValidNumber_Test02 started successfully
+Testcase SendINValidNumber_Test02 got skipped
+]]></system-out>
+  </testcase>
+  <testcase name="Teardown" classname="makemytrip.Makemytrip_launch_test" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>
