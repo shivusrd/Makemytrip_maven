@@ -71,6 +71,16 @@ public static  Logger logger = LogManager.getLogger(Baselibrary.class);
 		
 	}
     
+    public void getlaunch2 ()
+	{
+    	logger.info("Starting firefox Browser");
+       
+    	driver = new FirefoxDriver();
+	    driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+	}
+    
     public void homepage()
     {
     	
@@ -82,7 +92,7 @@ public static  Logger logger = LogManager.getLogger(Baselibrary.class);
 	public void Teardown()
 	{   
 		logger.info("Closing Chrome Browser");
-		//driver.quit();
+		driver.quit();
 	}
 	
 	
