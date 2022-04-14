@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.839 sec <<< FAILURE! - in TestSuite
-SendINValidNumber_Test02(makemytrip.Makemytrip_launch_test)  Time elapsed: 7.006 sec  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-target frame detached
-  (Session info: chrome=100.0.4896.88)
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'DESKTOP-493EAAE', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fa2d4c5e7c5d4ed1429f15a289371988, findElement {using=xpath, value=//input[contains(@placeholder,'Enter Mobile number')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53117/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fa2d4c5e7c5d4ed1429f15a289371988
-	at makemytrip.Makemytrip_launch_test.SendINValidNumber_Test02(Makemytrip_launch_test.java:59)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.364 sec - in TestSuite
