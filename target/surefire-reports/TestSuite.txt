@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 2.389 sec <<< FAILURE! - in TestSuite
-launchFB(makemytrip.Makemytrip_launch_test)  Time elapsed: 1.405 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at makemytrip.Makemytrip_launch_test.launchFB(Makemytrip_launch_test.java:39)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.673 sec - in TestSuite

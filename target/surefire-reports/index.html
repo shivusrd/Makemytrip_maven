@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Testingbaba" class="navigator-link">
-              <span class="suite-name border-skipped">Testingbaba</span>
+              <span class="suite-name border-passed">Testingbaba</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,26 +93,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,  2 skipped,  </span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Testingbaba" class="hide-methods skipped suite-Testingbaba"> (hide)</a> <!-- hide-methods skipped suite-Testingbaba -->
-                      <a href="#" panel-name="suite-Testingbaba" class="show-methods skipped suite-Testingbaba"> (show)</a> <!-- show-methods skipped suite-Testingbaba -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Testingbaba" class="hide-methods passed suite-Testingbaba"> (hide)</a> <!-- hide-methods passed suite-Testingbaba -->
+                      <a href="#" panel-name="suite-Testingbaba" class="show-methods passed suite-Testingbaba"> (show)</a> <!-- show-methods passed suite-Testingbaba -->
                     </span>
-                    <div class="method-list-content skipped suite-Testingbaba">
+                    <div class="method-list-content passed suite-Testingbaba">
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Testingbaba" title="makemytrip.Makemytrip_launch_test" class="method navigator-link" hash-for-method="SendINValidNumber_Test02">SendINValidNumber_Test02</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Testingbaba" title="makemytrip.Makemytrip_launch_test" class="method navigator-link" hash-for-method="SendValidNumber_Test01">SendValidNumber_Test01</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Testingbaba -->
+                    </div> <!-- method-list-content passed suite-Testingbaba -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -124,9 +124,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Testingbaba" class="panel Testingbaba">
-          <div class="suite-Testingbaba-class-skipped">
+          <div class="suite-Testingbaba-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">makemytrip.Makemytrip_launch_test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -135,10 +135,6 @@
                   <a name="SendINValidNumber_Test02">
                   </a> <!-- SendINValidNumber_Test02 -->
                   <span class="method-name">SendINValidNumber_Test02</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at makemytrip.Makemytrip_launch_test.launchFB(Makemytrip_launch_test.java:39)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -146,14 +142,10 @@
                   <a name="SendValidNumber_Test01">
                   </a> <!-- SendValidNumber_Test01 -->
                   <span class="method-name">SendValidNumber_Test01</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at makemytrip.Makemytrip_launch_test.launchFB(Makemytrip_launch_test.java:39)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Testingbaba-class-skipped -->
+          </div> <!-- suite-Testingbaba-class-passed -->
         </div> <!-- panel Testingbaba -->
         <div panel-name="test-xml-Testingbaba" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -164,7 +156,7 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Testingbaba&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;parameter name=&quot;browser&quot; value=&quot;&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;listeners.Listners&quot;/&gt;
     &lt;listener class-name=&quot;listeners.Report_log&quot;/&gt;
@@ -214,18 +206,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SendValidNumber_Test01')
+data.setCell(0, 1, 'SendINValidNumber_Test02')
 data.setCell(0, 2, 'makemytrip.Makemytrip_launch_test')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 10081);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'SendINValidNumber_Test02')
+data.setCell(1, 1, 'SendValidNumber_Test01')
 data.setCell(1, 2, 'makemytrip.Makemytrip_launch_test')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 4915);
 window.suiteTableData['Testingbaba']= { tableData: data, tableDiv: 'times-div-Testingbaba'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-Testingbaba">
               </div> <!-- times-div-Testingbaba -->
             </div> <!-- times-div -->
@@ -239,15 +231,15 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">SendValidNumber_Test01</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Testcase SendValidNumber_Test01 got skipped</span>
-                <span class="reporter-method-output">Testcase SendINValidNumber_Test02 started successfully</span>
+                <span class="reporter-method-output">Testcase SendValidNumber_Test01 started successfully</span>
+                <span class="reporter-method-output">Testcase SendValidNumber_Test01 passed successfully</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">SendINValidNumber_Test02</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Testcase SendINValidNumber_Test02 got skipped</span>
-                <span class="reporter-method-output">About to end executing Class Single_Test</span>
+                <span class="reporter-method-output">Testcase SendINValidNumber_Test02 started successfully</span>
+                <span class="reporter-method-output">Testcase SendINValidNumber_Test02 passed successfully</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -267,31 +259,29 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">makemytrip.Makemytrip_launch_test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">launchFB()</span>
+                <span class="method-name">launchFB(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">SendValidNumber_Test01</span>
-                <span class="method-start">59 ms</span>
+                <span class="method-start">9606 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">Teardown</span>
-                <span class="method-start">63 ms</span>
-              </div> <!-- configuration-test after -->
               <div class="configuration-method after">
-                <span class="method-name">analysis</span>
-                <span class="method-start">63 ms</span>
+                <span class="method-name">analysis([TestResult name=SendValidNumber_Test01 status=SUCCESS method=Makemytrip_launch_test.SendValidNumber...)</span>
+                <span class="method-start">14526 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">SendINValidNumber_Test02</span>
-                <span class="method-start">63 ms</span>
+                <span class="method-start">14534 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">analysis</span>
-                <span class="method-start">63 ms</span>
+                <span class="method-name">analysis([TestResult name=SendINValidNumber_Test02 status=SUCCESS method=Makemytrip_launch_test.SendINValidNu...)</span>
+                <span class="method-start">24616 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">24619 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
