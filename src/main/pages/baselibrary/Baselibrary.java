@@ -53,6 +53,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class Baselibrary 
 {
+
 public static WebDriver driver;
 public static Reporter reporter;
 public Reporter rep = new Reporter();
@@ -61,11 +62,21 @@ public static  Logger logger = LogManager.getLogger(Baselibrary.class);
 	
 
 
-    public void getlaunch ()
+    public void getlaunchchrome ()
 	{
     	logger.info("Starting Chrome Browser");
        
     	driver = new ChromeDriver();
+	    driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+	}
+    
+    public void getlaunchfirefox ()
+	{
+    	logger.info("Starting Firefox Browser");
+    	//System.setProperty("webdriver.gecko.driver","C:\\Users\\shivam.dubey\\git\\Makemytrip_maven\\geckodriver.exe");
+    	driver = new FirefoxDriver();
 	    driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
@@ -82,7 +93,7 @@ public static  Logger logger = LogManager.getLogger(Baselibrary.class);
 	public void Teardown()
 	{   
 		logger.info("Closing Chrome Browser");
-		//driver.quit();
+		driver.quit();
 	}
 	
 	
@@ -90,30 +101,30 @@ public static  Logger logger = LogManager.getLogger(Baselibrary.class);
 	
 	
 	
-	@AfterMethod
-	public void analysis(ITestResult result)
+//	@AfterMethod
+//	public void analysis(ITestResult result)
 	
-	{
-		String methodname = result.getMethod().getMethodName();
+//	{
+//		String methodname = result.getMethod().getMethodName();
 //		if(result.isSuccess())
 //		{
 //			
 //			ScreenshotUtility.getscreenshot("PASSED", methodname);
 //		}
 		
-		if (result.getStatus()==ITestResult.FAILURE)
-		
-		{
-			ScreenshotUtility.getscreenshot("FAILED", methodname);
-		}
-		
-		else if (result.getStatus()==ITestResult.SKIP)
-			
-		{
-			ScreenshotUtility.getscreenshot("SKIP", methodname);
-		}
-		
-	}
+//		if (result.getStatus()==ITestResult.FAILURE)
+//		
+//		{
+//			ScreenshotUtility.getscreenshot("FAILED", methodname);
+//		}
+//		
+//		else if (result.getStatus()==ITestResult.SKIP)
+//			
+//		{
+//			ScreenshotUtility.getscreenshot("SKIP", methodname);
+//		}
+//		
+//	}
 			
 	public void getScreenshot(String result) throws IOException 
 	{

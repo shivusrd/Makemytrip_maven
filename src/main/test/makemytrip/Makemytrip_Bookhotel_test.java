@@ -16,7 +16,7 @@ public class Makemytrip_Bookhotel_test extends Baselibrary{
 
 		public void launchFB() {
 			String url = PropertyUtility.getreadproperty("makemytrip");
-			getlaunch();
+			getlaunchchrome();
 			driver.get(url);
 
 			ob = new Makemytrip_Bookhotel();

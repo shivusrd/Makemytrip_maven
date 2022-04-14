@@ -20,7 +20,7 @@ public class Makemytrip_TrainBook_test extends Baselibrary
 
 	public void launch_makemytrip() {
 		String url = PropertyUtility.getreadproperty("makemytrip");
-		getlaunch();
+		getlaunchchrome();
 		driver.get(url);
 
 		ob = new Makemytrip_TrainBook_page();

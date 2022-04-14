@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Testingbaba">
+<suite name="Testingbaba" parallel="classes" >
 
+<parameter name="browser" value="firefox"/>
+	
 	<listeners>
      <listener class-name="listeners.Listners"/>
        <listener class-name="listeners.Report_log"/>
@@ -10,11 +12,12 @@
  </listeners>
  
 
+<test name = "Single_Test" enabled="true" >
 
-	 <test name = "Single_Test" enabled="true" >
-  <classes>
-  <class name="makemytrip.Makemytrip_Bookhotel_test"/>
-    </classes>
+ <classes>
+<class name="makemytrip.Makemytrip_launch_test"></class>
+
+</classes>
   </test>
   
 </suite> <!-- Suite -->
