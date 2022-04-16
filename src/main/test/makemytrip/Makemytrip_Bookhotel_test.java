@@ -1,43 +1,50 @@
 package makemytrip;
 
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import baselibrary.Baselibrary;
-import pages.Makemytrip_Bookhotel;
+import pages.Makemytrip_Search_Flight;
 import pages.Makemytrip_launch_page;
 import propertyutility.PropertyUtility;
 
-public class Makemytrip_Bookhotel_test extends Baselibrary{
+public class Makemytrip_Bookhotel_test extends Baselibrary
+{
 	
-		Makemytrip_Bookhotel ob;
-		
+		Makemytrip_Search_Flight ob;
+		@Parameters({ "browser" })
 		@BeforeTest
 
-		public void launchFB() {
+		public void launchFB(String browser) 
+		{
 			String url = PropertyUtility.getreadproperty("makemytrip");
-			getlaunchchrome();
-			driver.get(url);
+			if(browser.equalsIgnoreCase("firefox")) {
+				 
+				     //Initializing the firefox driver (Gecko)
+					 getlaunchfirefox();
 
-			ob = new Makemytrip_Bookhotel();
+				  }else if (browser.equalsIgnoreCase("chrome")) { 
+
+					  //Initialize the chrome driver
+
+					 getlaunchchrome();
+
+				  } 
+			driver.get(url);
+            ob = new Makemytrip_Search_Flight();
 		}
 
 		
 		@Test(priority = 0)
-		public void clickonhotel() throws InterruptedException
+		public void SearchFlightToday() throws InterruptedException
 		{
-			ob.clickonplace();
+			ob.ClickOnFlight();
+			ob.enterDepartureDate();
+			ob.enterReturnDate();
+			ob.clicksearch();
 			
 		}
 		
-		/*@Test(priority = 1)
-		public void clickonplace()
-		{
-			ob.clickonplace();
-		}
-		@Test(priority = 2)
-		public void clickondate()
-		{
-			ob.clickondate();
-		}*/
+		
 }

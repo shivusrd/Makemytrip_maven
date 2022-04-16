@@ -16,6 +16,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 import org.w3c.dom.html.HTMLUListElement;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -87,12 +88,23 @@ public static  Logger logger = LogManager.getLogger(Baselibrary.class);
     	
     	driver.navigate().to(PropertyUtility.getreadproperty("makemytrip"));
     }
-	
+    @Parameters({ "browser" })
 	@AfterTest
 	
-	public void Teardown()
-	{   
-		logger.info("Closing Chrome Browser");
+	public void Teardown(String browser)
+	{   if(browser.equalsIgnoreCase("firefox")) {
+		 
+		     //Initializing the firefox driver (Gecko)
+		     logger.info("Closing Firefox Browser");
+
+		  }else if (browser.equalsIgnoreCase("chrome")) { 
+
+			  //Initialize the chrome driver
+
+			  logger.info("Closing Chrome Browser");
+
+		  } 
+		
 		driver.quit();
 	}
 	
