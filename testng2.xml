@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite name="Testingbaba" parallel="classes" >
 
 <parameter name="browser" value="chrome"/>
+=======
+<suite name="Testingbaba">
+<parameter name="browser" value=""></parameter>
+>>>>>>> 9ad6e1362f90b0f13bb2566a1e49b01894c640c4
 	
 	<listeners>
      <listener class-name="listeners.Listners"/>
@@ -14,10 +19,17 @@
 
 <test name = "Single_Test" enabled="true" >
 
+<<<<<<< HEAD
  <classes>
 <class name="makemytrip.Makemytrip_Bookhotel_test"></class>
 
 </classes>
+=======
+	 <test name = "Single_Test" enabled="true" >
+  <classes>
+  <class name="makemytrip.Makemytrip_launch_test"/>
+    </classes>
+>>>>>>> 9ad6e1362f90b0f13bb2566a1e49b01894c640c4
   </test>
   
 </suite> <!-- Suite -->

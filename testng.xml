@@ -14,15 +14,6 @@
     </classes>
   </test>
   
-  <test name = "Book_Train" enabled="true" >
-  <classes>
-  <class name="makemytrip.Makemytrip_TrainBook_test"/>
-    </classes>
-  </test>
-  
-  
-  
  
-
 </suite> <!-- Suite -->
 

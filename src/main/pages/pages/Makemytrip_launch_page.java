@@ -29,6 +29,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.asserts.Assertion;
 
 public class Makemytrip_launch_page extends Baselibrary
 
@@ -88,7 +89,11 @@ public class Makemytrip_launch_page extends Baselibrary
 		Applicationutility.clickme(submit);
 		
 		String text2 = invalid.getText();
+<<<<<<< HEAD
 		assertEquals(text2, "Link sent successfully to 8532015888, please check your SMS");
+=======
+		assertEquals(text2, "Link sent successfully to 8630596756, please check your SMS");
+>>>>>>> 9ad6e1362f90b0f13bb2566a1e49b01894c640c4
 		System.out.println(text2);
 
 
@@ -112,7 +117,7 @@ public class Makemytrip_launch_page extends Baselibrary
 		String text = invalid.getText();
 		assertEquals(text, "Incomplete phone number, please check");
 		System.out.println(text);
-
+		
 		Thread.sleep(5000);
 
 		String compare = driver.getTitle();

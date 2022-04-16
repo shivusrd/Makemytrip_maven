@@ -15,6 +15,7 @@ public class Makemytrip_launch_test extends Baselibrary
 
 {
 	Makemytrip_launch_page ob;
+<<<<<<< HEAD
 	@Parameters({ "browser" })
 	@BeforeTest
 	
@@ -32,6 +33,29 @@ public class Makemytrip_launch_test extends Baselibrary
 				 getlaunchchrome();
 
 			  } 
+=======
+	@Parameters({"browser"})
+	
+	@BeforeTest
+
+	public void launchFB(String browser) 
+	{
+		String url = PropertyUtility.getreadproperty("makemytrip");
+		// If the browser is Firefox, then do this
+
+		  if(browser.equalsIgnoreCase("firefox")) {
+			 
+		//Initializing the firefox driver (Gecko)
+			  getlaunch2(); 
+
+		  }else if (browser.equalsIgnoreCase("chrome")) { 
+
+			  //Initialize the chrome driver
+
+			  getlaunch();
+
+		  } 
+>>>>>>> 9ad6e1362f90b0f13bb2566a1e49b01894c640c4
 		
 		driver.get(url);
 
