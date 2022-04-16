@@ -73,7 +73,7 @@ public static  Logger logger = LogManager.getLogger(Baselibrary.class);
 		
 	}
     
-<<<<<<< HEAD
+
     public void getlaunchfirefox ()
 	{
     	logger.info("Starting Firefox Browser");
@@ -83,7 +83,7 @@ public static  Logger logger = LogManager.getLogger(Baselibrary.class);
 	{
     	logger.info("Starting firefox Browser");
        
->>>>>>> 9ad6e1362f90b0f13bb2566a1e49b01894c640c4
+
     	driver = new FirefoxDriver();
 	    driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
